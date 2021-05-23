@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card"
+        android:layout_width="344dp"
+        android:layout_height="134dp"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/date_post"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="Дата" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="128dp">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="31dp"
+                        android:text="Бюджет на день:" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="31dp"
+                        android:text="Расход за день:" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="245dp"
+                    android:layout_height="102dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/day_profit"
+                        android:layout_width="match_parent"
+                        android:layout_height="31dp"
+                        android:text="   0" />
+
+                    <TextView
+                        android:id="@+id/day_expen"
+                        android:layout_width="match_parent"
+                        android:layout_height="31dp"
+                        android:text="   0" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+  <style name="TextAppearance.MaterialCalendarWidget.Header"
+      parent="android:TextAppearance.DeviceDefault.Small">
+    <item name="android:textStyle">bold</item>
+  </style>
+
+  <style name="TextAppearance.MaterialCalendarWidget.Date"
+      parent="android:TextAppearance.DeviceDefault.Small">
+    <item name="android:textSize">12sp</item>
+    <item name="android:textColor">@color/mcv_text_date_light</item>
+  </style>
+
+  <style name="TextAppearance.MaterialCalendarWidget.WeekDay"
+      parent="android:TextAppearance.DeviceDefault.Small">
+    <item name="android:textSize">12sp</item>
+  </style>
+//для диалоговых окон(с закруглением)
+  <style name="RoundShapeTheme" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+    <item name="shapeAppearanceMediumComponent">@style/RoundShapeAppearance</item>
+  </style>
+  <style name="RoundShapeAppearance" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+    <item name="cornerFamily">rounded</item>
+    <item name="cornerSize">16dp</item>
+  </style>
+
+</resources>
